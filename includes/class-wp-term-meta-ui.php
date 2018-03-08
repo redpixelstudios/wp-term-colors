@@ -17,7 +17,7 @@
 // Exit if accessed directly
 defined( 'ABSPATH' ) || exit;
 
-if ( function_exists( 'add_term_meta' ) && ! class_exists( 'WP_Term_Meta_UI' ) ) :
+if ( ! class_exists( 'WP_Term_Meta_UI' ) ) :
 /**
  * Main WP Term Meta UI class
  *
