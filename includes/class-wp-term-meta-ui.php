@@ -162,7 +162,7 @@ class WP_Term_Meta_UI {
 			// Every admin page
 			add_action( 'admin_init', array( $this, 'admin_init' ) );
 
-			// Bail if taxonomy does not include colors
+			// Only add if taxonomy is supported
 			if ( ! empty( $_REQUEST['taxonomy'] ) && in_array( $_REQUEST['taxonomy'], $this->taxonomies, true ) ) {
 				add_action( 'load-edit-tags.php', array( $this, 'edit_tags_page' ) );
 				add_action( 'load-term.php',      array( $this, 'term_page'      ) );
