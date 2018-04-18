@@ -423,7 +423,7 @@ class WP_Term_Meta_UI {
 
 		// Bail if no taxonomy passed or not on the `meta_key` column
 		if ( empty( $_REQUEST['taxonomy'] ) || ( $this->meta_key !== $custom_column ) || ! empty( $empty ) ) {
-			return;
+			return $empty;
 		}
 
 		// Get the metadata
