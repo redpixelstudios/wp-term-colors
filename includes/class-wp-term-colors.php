@@ -25,7 +25,7 @@ final class WP_Term_Colors extends WP_Term_Meta_UI {
 	/**
 	 * @var string Plugin version
 	 */
-	public $version = '0.2.0';
+	public $version = '0.2.1';
 
 	/**
 	 * @var string Database version

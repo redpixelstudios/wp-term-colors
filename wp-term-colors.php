@@ -8,7 +8,7 @@
  * License:     GPLv2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Description: Pretty colors for categories, tags, and other taxonomy terms.  Minor loading modifications made by Red Pixel Studios.
- * Version:     0.2.0
+ * Version:     0.2.1
  * Text Domain: wp-term-colors
  * Domain Path: /assets/lang/
  */
